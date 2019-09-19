@@ -2,7 +2,7 @@
 An open to everyone discord.js template
 
 
-You are welcome to fork it and use it to build your own bot. We suggest that you use paid hosting service like vultr vps server if you want to hostit 24/7.
+You are welcome to fork it and use it to build your own bot. We suggest that you use paid hosting service like vultr vps server if you want to host it 24/7.
 
 
 # getting it running
