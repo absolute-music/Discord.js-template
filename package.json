@@ -1,0 +1,13 @@
+{
+  "name": "example-project",
+  "version": "1.0.0",
+  "description": "A discord.js project",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "11.5.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+  }
