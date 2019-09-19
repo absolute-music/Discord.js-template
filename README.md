@@ -10,9 +10,9 @@ To get your bot working, you need to go to [discord deverloper portal](https://d
 
 After obtaining your token, go to config.json and insert your token inside the quotation mark where it says insert token here.
 
-Set your prefix, upload it to download it to your computer, use ftps to upload it to your vps server, cd to the file, and type 
+Set your prefix, upload it to download it to your computer, use ftps to upload it to your vps server, navigate to the file using the cd command, and type 
 ```node .```
 
-# I still need more help
+# How to set it up?
 
 Check [this](https://www.writebots.com/discord-bot-hosting/) out!
