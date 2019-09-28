@@ -1,14 +1,13 @@
-const Discord = require("discord.js");//import discord.js library
-const client = new Discord.Client();//get the discord client
-const config = require("./config.json");
-client.on("ready", () => {
-  console.log("bot online")//log in the console that bot is online
-})
-client.on("message", () =. {
-  let prefix = config.prefix;
-  if(message.content === `${prefix}ping`){
-  message.channel.send("pong");
-  }//Your first command
-})
+const Discord = require("discord-bmaker");//import discord.js library
 
-client.login(config.token)//go to edit the config.json file
+var bot = new Bot({
+    token: "NjI3MzcwNzkzMzY5NjAwMDEx.XY7qmw.spSi7JsNzcZAGuNm8OLTZCs2_cM"
+});
+
+bot
+    .on(bot.triggers.command, 'hello')
+    .do(function(bot, conf, args) {
+        this.reply('world');
+    });
+ 
+bot.connect();
