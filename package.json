@@ -4,7 +4,8 @@
   "description": "A discord.js project",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "11.5.1"
+    "discord.js": "11.5.1",
+    "discord-bmaker": "0.1.2"
   },
   "engines": {
     "node": ">= 6.0.0",
